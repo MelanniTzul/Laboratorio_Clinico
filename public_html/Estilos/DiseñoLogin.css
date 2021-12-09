@@ -1,0 +1,49 @@
+
+/* 
+    Created on : 9/12/2021, 00:53:59
+    Author     : melannitzul
+*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+
+body{
+    background:url(../Imagenes/fondo.jpeg);
+    background-size: cover;
+}
+
+.cuadroLogin{
+    background: gainsboro; 
+    width: 650px;
+    height: 815px;
+    margin-left: 100px;   
+}
+
+.diseñoLetra{
+   margin-left: 200px;
+   padding-top: 300px;
+       
+}
+
+.diseñoLetra h1{
+    color: #566573;
+    font-size: 20px;
+    
+}
+
+.diseñoLetra input{
+   width: 250px;
+   height: 25px;
+   border-radius: 6px;
+}
+
+.diseñoLetra input[type="submit"]{
+    color: #ffffff;
+    background: #1b4f72;
+    height: 30px;
+    cursor: pointer;
+        
+}

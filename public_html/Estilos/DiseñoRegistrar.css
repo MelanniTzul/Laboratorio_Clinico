@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9/12/2021, 02:45:29
+    Author     : melannitzul
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(../Imagenes/fondo.jpeg);
+    background-size: cover;
+}
+
+.cuadroRegistrar{
+    background: gainsboro;
+    width: 650px;
+    height: 815px;
+    margin-left: 100px;
+    
+}
+
+
+.CuadroDiseñarLetra{
+    margin-left: 200px;
+    padding-top: 300px;
+}
+
+.CuadroDiseñarLetra h1{
+    color: #566573;
+    font-size: 20px;
+}
+.principal{
+    margin-left:80px;
+}
+
+.CuadroDiseñarLetra input{
+    width: 250px;
+    height: 25px;
+    border-radius: 6px;
+        
+}
+
+.CuadroDiseñarLetra input[type="submit"]{
+    color: #ffffff;
+    background: #1b4f72;
+    height: 30px;
+    cursor: pointer;
+    
+}
