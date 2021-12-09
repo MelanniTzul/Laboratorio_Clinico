@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <title>Registrar</title>
@@ -18,24 +14,24 @@ and open the template in the editor.
                 <br><!-- comment -->
                 <br><!-- comment -->
                 <h1>Correo</h1>
-                 <input type="text" name="correo" placeholder="Ej.melannitzul@gmil.com"/>
+                 <input type="text" name="correo" id="correo" placeholder="Ej.melannitzul@gmil.com"/>
                  <br><!-- comment -->
                  <br><!-- comment -->
                  <h1>Nombre</h1>
-                 <input type="text" name="Nombre" placeholder="Ej. Melanni Tzul"/>
+                 <input type="text" name="Nombre" id="Nombre" placeholder="Ej. Melanni Tzul"/>
                  <br><!-- comment -->
                  <br><!-- comment -->
                  <h1>Contraseña</h1>
-                 <input type="password" name="pass" placeholder="Contraseña"/>
+                 <input type="password" name="pass" id="pass" placeholder="Contraseña"/>
                  <br><!-- comment -->
                  <br><!-- comment -->
                  <h1>Confirmar contraseña</h1>
-                 <input type="password" name="pass" placeholder="Confirmar contraseña"/>
+                 <input type="password" name="pass" id="passConfirmar" placeholder="Confirmar contraseña"/>
                  <br><!-- comment -->
                  <br><!-- comment -->
-                 <input type="submit" value="Aceptar"/>  
-                                     
+                 <input type="submit" onclick="GuardarDatos()" value="Aceptar"/>                                       
             </form>
         </div>
+        <script type="text/javascript" src="./DatosRegistrar.js"></script>
     </body>
 </html>
